@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* section for header properties */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,7 +45,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* general properties for text and placing images*/
 p {
     font-size: 16px;
 }
@@ -67,22 +67,11 @@ figure img {
     float: right;
     margin-left: 25px;
 }
-
+/* properties for the main content */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
 }
 
 article {
@@ -102,6 +91,17 @@ article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*properties for the side section*/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
 
 section {
     margin-bottom: 32px;
@@ -118,7 +118,7 @@ section img {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*properties for the footer*/
 footer {
     padding: 30px;
     clear: both;

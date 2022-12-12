@@ -41,6 +41,14 @@ header nav ul li {
     margin-left: 25px;
 }
 
+figure img {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -48,14 +56,6 @@ a {
 /* general properties for text and placing images*/
 p {
     font-size: 16px;
-}
-
-figure img {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
 }
 
 .float-left {
